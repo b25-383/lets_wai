@@ -7,7 +7,7 @@ body {
 
 /* Header */
 header {
-    background-color: #2c3e50;
+    background-color: #50372c;
     color: white;
     padding: 20px;
     text-align: center;
@@ -15,7 +15,7 @@ header {
 
 /* Navigation */
 nav {
-    background-color: #34495e;
+    background-color: #5e4b34;
     padding: 10px;
     text-align: center;
 }
@@ -54,7 +54,7 @@ section{
 
     /* Footer */
     footer{
-        background-color: #2c3e50;
+        background-color: #e60000;
         color: white;
         text-align: center;
         padding: 10px;
