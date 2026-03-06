@@ -6,28 +6,118 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Products</title>
     <link rel="stylesheet" href="style.css">
+    <!-- Bootstrap CSS --> 
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"> 
 </head>
 
 <body>
 
     <header>
 
-        <h1>Products</h1>
+     <nav class="navbar navbar-expand-lg navbar-dark bg-dark"> 
 
-        <nav>
+    <div class="container"> 
 
-            <a href="index.html">Home</a>
-            <a href="about.html">About</a>
-            <a href="contact.html">Contact</a>
+     <a class="navbar-brand" href="index.html">My Website</a> 
 
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"> 
+
+                <span class="navbar-toggler-icon"></span> 
+
+            </button> 
+
+            <div class="collapse navbar-collapse" id="navbarNav"> 
+
+                <ul class="navbar-nav"> 
+
+                    <li class="nav-item"> 
+
+                        <a class="nav-link" href="index.html">Home</a> 
+
+                    </li> 
+                    <li class="nav-item"> 
+
+                        <a class="nav-link" href="products.html">Products</a> 
+
+                    </li> 
+                    <li class="nav-item"> 
+
+                        <a class="nav-link" href="about.html">About</a> 
+
+                    </li> 
+
+                    <li class="nav-item"> 
+
+                        <a class="nav-link" href="contact.html">Contact</a> 
+
+                    </li> 
+
+                </ul> 
+            
+            </div> 
+
+     </div> 
+
+    </nav> 
         </nav>
 
     </header>
 
     <main>
+        <h2>Our Products</h2>
+<table border="1" cellpadding="10" cellspacing="0">
+<tr>
+    <th>Product</th>
+    <th>Description</th>
+    <th>Price</th>
+</tr>
 
-        <p>DONT MIND THIS</p>
-        <p>MIND THIS</p>
+<tr>
+    <td>Laptop</td>
+    <td>High performance laptop</td>
+    <td>$900</td>
+</tr>
+
+<tr>
+    <td>Headphones</td>
+    <td>Noise cancelling headphones</td>
+    <td>$120</td>
+</tr>
+
+<tr>
+    <td>Smart Watch</td>
+    <td>Fitness tracking smart watch</td>
+    <td>$250</td>
+</tr>
+<tr>
+    <td>Microphone</td>
+    <td>High-quality microphone</td>
+    <td>$90</td>
+</tr>
+
+<tr>
+    <td>Smart Watch</td>
+    <td>Fitness tracking smart watch</td>
+    <td>$250</td>
+</tr>
+<tr>
+    <td>Playstation 5 </td>
+    <td>Video game console</td>
+    <td>$499</td>
+</tr>
+<tr>
+    <td>Xbox Series X</td>
+    <td>Video game console</td>
+    <td>$499</td>
+</tr>
+<tr>
+    <td>Sedilame</td>
+    <td>Nokia 60hertz, stereo speakers and 3.5mm jack</td>
+    <td>$50</td>
+</tr>
+</table>
+
+       
     </main>
 
     <footer>
@@ -35,7 +125,11 @@
         <p>&copy; 2026 Lebogang Mogana</p>
 
     </footer>
+<!-- Bootstrap JS and dependencies --> 
 
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script> 
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script> 
 </body>
 
 </html>
